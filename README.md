@@ -15,8 +15,7 @@ This is a Flask-based RESTful API for managing product data. The API supports ba
 ### 1. Clone the Repository
 Clone this repository to your local machine using the following command:
 ```bash
-git clone https://github.com/your-username/flask-api-project.git
-cd flask-api-project
+git clone https://github.com/sutejym122/Backend-and-API-Development-with-Python.git
 ```
 
 ### 2. Create a Virtual Environment
