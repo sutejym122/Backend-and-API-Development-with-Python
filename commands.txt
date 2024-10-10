@@ -1,0 +1,11 @@
+create/post - curl -X POST http://127.0.0.1:5000/products -H "Content-Type: application/json" -d '{"id": 1, "name": "Product A", "price": 100}'
+
+read / get - curl -X GET http://127.0.0.1:5000/products/1
+
+update / put - curl -X PUT http://127.0.0.1:5000/products/1 -H "Content-Type: application/json" -d '{"price": 150}'
+
+delete - curl -X DELETE http://127.0.0.1:5000/products/1
+
+curl -X GET http://127.0.0.1:5000/products/99
+
+
